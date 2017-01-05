@@ -1,0 +1,13 @@
+<h1> Users </h1>
+
+<ul id='users'>
+  <% @users.each do |link| %>
+    <li>
+      ID: <%= users.id %>
+      email:<%= users.email %>
+      Forename: <%= users.forename %>
+      Surname: <%= users.surname %>
+      Date Created: <%= users.created %>
+    </li>
+  <% end %>
+</ul>
